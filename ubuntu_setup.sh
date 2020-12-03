@@ -22,9 +22,9 @@ echo        install basic packages
 echo ========================================
 sudo apt-get install vim zip git unzip net-tools screen tmux htop cpulimit gparted lm-sensors -y
 echo ========================================
-echo     install nvidia-driver 440
+echo     install nvidia-driver 455
 echo ========================================
-sudo apt-get install nvidia-driver-440 -y 
+sudo apt-get install nvidia-driver-455 -y 
 echo ========================================
 echo            install cudnn 
 echo ========================================
