@@ -2,6 +2,7 @@
 folder=$1
 
 echo $folder
+sudo chmod -R 777 /$folder
 for id in `more $folder.txt`
 do
 echo -e $id
