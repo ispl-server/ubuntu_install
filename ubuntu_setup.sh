@@ -20,11 +20,15 @@ sudo sed -i -e 's/Update-Package-Lists "1"/Update-Package-Lists "0"/g' /etc/apt/
 echo ========================================
 echo        install basic packages
 echo ========================================
-sudo apt-get install vim zip git unzip net-tools screen tmux htop cpulimit gparted lm-sensors -y
+sudo apt-get install vim zip git unzip net-tools screen tmux htop cpulimit gparted lm-sensors libpam-cracklib -y
 echo ========================================
-echo     install nvidia-driver 440
+echo        change password policy
 echo ========================================
-sudo apt-get install nvidia-driver-440 -y 
+sudo sed -i -e 's/difok=3/dcredit=-1 ucredit=-1 lcredit=-1 ocredit=-1/g' /etc/pam.d/common-password
+echo ========================================
+echo     install nvidia-driver 455
+echo ========================================
+sudo apt-get install nvidia-driver-455 -y 
 echo ========================================
 echo            install cudnn 
 echo ========================================
