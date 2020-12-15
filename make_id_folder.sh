@@ -2,7 +2,7 @@
 folder=$1
 
 echo "changing permission of "$folder
-chmod -R 775 $folder/
+chmod -R 775 /$folder
 echo "creating ids and home folders"
 for id in `more $folder.txt`
 do
