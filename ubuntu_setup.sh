@@ -36,7 +36,6 @@ sudo apt install nvidia-cuda-toolkit -y
 echo ========================================
 echo things left to do ...
 echo 1. HDD mount
-echo 2. change HDD folder permissions (e.g. chown -R 777 /data)
-echo 3. make ids
-echo 4. reboot
+echo 2. make ids
+echo 3. reboot
 echo ========================================
