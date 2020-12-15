@@ -20,7 +20,7 @@ sudo sed -i -e 's/Update-Package-Lists "1"/Update-Package-Lists "0"/g' /etc/apt/
 echo ========================================
 echo        install basic packages
 echo ========================================
-sudo apt-get install vim zip git unzip net-tools screen tmux htop cpulimit gparted lm-sensors -y
+sudo apt-get install vim zip git unzip net-tools screen tmux htop cpulimit gparted lm-sensors libpam-cracklib -y
 echo ========================================
 echo     install nvidia-driver 455
 echo ========================================
