@@ -10,3 +10,5 @@ make_id_folder : create id, home folders
 (change permission of data folder beforehand!)
 
 fstab : just there for reference
+
+reset_id : reset users passwords
