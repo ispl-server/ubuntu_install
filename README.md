@@ -7,6 +7,6 @@ ubuntu_setup : everything with sudo apt-get install
 
 make_id_folder : create id, home folders
 
-(change permission of data foler beforehand!)
+(change permission of data folder beforehand!)
 
 fstab : just there for reference
