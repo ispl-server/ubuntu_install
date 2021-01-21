@@ -24,7 +24,7 @@ sudo apt-get install vim zip git unzip net-tools screen tmux htop cpulimit gpart
 echo ========================================
 echo        change password policy
 echo ========================================
-sudo sed -i -e 's/difok=3/dcredit=-1 ucredit=-1 lcredit=-1 ocredit=-1/g' /etc/pam.d/common-password
+sudo sed -i -e 's/difok=3/dcredit=-1 lcredit=-1 ocredit=-1/g' /etc/pam.d/common-password
 echo ========================================
 echo     install nvidia-driver 455
 echo ========================================
