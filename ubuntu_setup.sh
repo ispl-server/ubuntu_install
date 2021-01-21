@@ -35,7 +35,7 @@ echo ========================================
 sudo apt install nvidia-cuda-toolkit -y
 echo ========================================
 echo things left to do ...
-echo 1. HDD mount
-echo 2. make ids
+echo 1. make ids
+echo 2. reset to hard password
 echo 3. reboot
 echo ========================================
