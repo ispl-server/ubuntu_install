@@ -4,7 +4,7 @@ folder=$1
 echo "changing permission of "$folder
 chmod -R 775 /$folder
 echo "creating ids and home folders"
-for id in `more $folder.txt`
+for id in `$folder.txt`
 do
 echo -e $id
 useradd $id -s /bin/bash
